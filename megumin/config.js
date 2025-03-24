@@ -15,37 +15,34 @@ global.confirmCode = ''
 
 //• ↳𝑺𝑶𝑳𝑶 𝑫𝑬𝑺𝑨𝑹𝑹𝑶𝑳𝑳𝑨𝑫𝑶𝑹𝑬𝑺 𝑨𝑷𝑹𝑶𝑩𝑨𝑫𝑶𝑺
 global.owner = [
-  ['5351524614', '🔥 𝗖𝗿𝗲𝗮𝗱𝗼𝗿 (◣_◢)凸', true],
-  ['5218715746374'],
-  ['5218711426787']
+  ['51994114690', 'creador ꧁⟣٭𝕹𝕷𝕬٭⟢꧂', true],
+  ['51919199620'],
+  ['51969214380'],
+  ['51988013368']
 ];
 
-global.suittag = ['5351524614']
+global.suittag = ['51994114690']
 global.prems = []
 
 global.libreria = 'Baileys'
 global.baileys = 'fizzxydev/baileys-pro'
 global.vs = '^2.0.5'
 global.languaje = 'Español'
-global.nameqr = 'Megumin Bot - MD'
-global.sessions = 'MeguminSession'
-global.jadi = 'MeguminJadiBot'
+global.nameqr = 'ShadowBot-MD'
+global.sessions = 'sessions'
+global.jadi = 'JadiBots'
 global.meguminJadibts = true
 
-//• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packsticker = `♾ ━━━━━━━━\n├ ɓσƭ:\n├ ρяοριєταяιο:\n├ ƒєϲнα ∂є ϲяєαϲιόи:\n├ нοяα:\n♾━━━━━━━━`
-global.packname = `🔥⭑𝗠𝗲𝗴𝘂𝗺𝗶𝗻-𝗕𝗼𝘁⭑(^_^♪)`
-global.author = `♾━━━━━━━━\n⇝͟͞ ۵̤͟𝚳̶̤𝚵̅𝔾̈͟𝖀𝐌̶̤𝚰̅𝚴̈͟♡̵̑ ͟͞   ᷨᜳ ͦ ̵ͭ⋆\n⇝ ۵-̱̅𝐃𝖆𝒗𝖏𝖉𐝃𐋃ᶜʱⁱᵃᶯ-͞ˍ\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nѕτιϲκєя ϐγ: ৎ୭࠭͢𝑴𝒆̤𝒈𝒖̣֟፝֯𝒎̤𝒊̣𝒏🔥̤ʙⷪᴏ͓ᷫᴛⷭ𓆪͟͞ `;
-global.wm = 'ৎ୭࠭͢𝑴𝒆̤𝒈𝒖̣֟፝֯𝒎̤𝒊̣𝒏🔥̤ʙⷪᴏ͓ᷫᴛⷭ𓆪͟͞ ';
-global.titulowm = '͟͞ ৎ୭࠭͢💥͟𝑬̶𝒙͞𝒑͟𝒍𝒐̶𝒔̅𝒊͟𝒐́𝒏̶🔥̤𓆪 ͟͞';
-global.titulowm2 = `͟͞ ৎ୭࠭͢💥͟𝑬̶𝒙͞𝒑͟𝒍𝒐̶𝒔̅𝒊͟𝒐́𝒏̶🔥̤𓆪 ͟͞`
-global.igfg = 'ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸'
-global.botname = '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ძᥲ᥎іძ ᥴһіᥲᥒ ❀'
-global.textbot = '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐ : ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸'
-global.gt = '͟͞ ৎ୭࠭͢💥͟𝑬̶𝒙͞𝒑͟𝒍𝒐̶𝒔̅𝒊͟𝒐́𝒏̶🔥̤𓆪 ͟͞';
-global.namechannel = '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐/ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸'
-
+global.packname = `⪛✦ Sԋαԃσɯ Bσƚ ✦⪜`
+global.wm = '★ sʜᴀᴅᴏᴡ ʙᴏᴛ ̥༅';
+global.titulowm = '✯ 𝕊ℍ𝔸𝔻𝕆𝕎 𝔹𝕆𝕋 ᬊ᭄';
+global.titulowm2 = `♡ 𝐒𝐇𝐀𝐃𝐎𝐖 𝐁𝐎𝐓`
+global.igfg = '⏤͟͞𝐓𝐇𝐄 ✧͜͡҉ℕℒᎯ𖤍̸̷̶'
+global.botname = 'ᰔᩚ 𝚂𝙷𝙰𝙳𝙾𝚆 𝙱𝙾𝚃 ❅'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ ꧁⟣٭NLA٭⟢꧂'
+global.textbot = '𝚂𝙷𝙰𝙳𝙾𝚆 𝙱𝙾𝚃 • Powered By ꧁⟣٭𝙽𝙻𝙰٭⟢꧂'
+global.gt = '✰şħάȡόώ вόţ✰';
+global.namechannel = '𝕾𝖆𝖙𝖔𝖗𝖚 𝖌𝖔𝖏𝖔/✧͜͡҉ℕℒᎯ𖤍̸̷̶'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = 'https://files.catbox.moe/6lhjit.jpg'

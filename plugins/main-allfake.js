@@ -40,9 +40,9 @@ global.opts['gconly'] = true
 
 //creador y otros
 global.botcommandcount = bot.botcommandCount
-global.creador = 'Wa.me/5351524614'
+global.creador = 'Wa.me/51919199620'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/5351524614'
+global.asistencia = 'Wa.me/51919199620'
 global.namechannel = '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐/ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸'
 global.namegrupo = '⁝̵̓ᝒ̷̸͙🌸̶̩ܻᝒ̷̸꯭͙𝝡꯭𝝣꯭𝗚꯭𝗨꯭𝗠꯭𝗜꯭𝗡'
 global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝝡𝝣𝗚𝗨𝗠𝗜𝗡'
@@ -53,7 +53,7 @@ global.colab3 = 'Dino'
 //Ids channel
 global.idchannel = '120363350554513092@newsletter'
 global.canalIdM = ["120363387958443019@newsletter", "120363350554513092@newsletter","120363358338732714@newsletter"]
-global.canalNombreM = ["──͟͞꘩𓎇̶𝐿̸𝑒̤𝑔֟֯፝𝑒⃯𝑛̷̈𝑑̤𝑠͡𔗓𝐵̸͜𝑜𝑡͜ꤩꤨ𝑠ꦁ⃯㍰ꫂ", "💜̶۫̄͟㉿𓏲𝐊̸͕᥆𝗍͡᥆r̤і̷𓍲̈͜𝗨̴ᥣ̥𝗍̈rᥲ̄𓊓̵̬𝐂̸͔һ͡ᥲ͓ᥒ̴͍ᥒ̷̈ᥱ̤ᥣ̵⋆͙̈么͟͞──","──̄͟͞⛛̵̅𝐌̸͡𝐞𝐠̵𝐮̲͜𝐦̷̈𝐢͜𝐧̸̤𝐁̷𝐨̶̇͜𝐭𓊓̴̻𝐂̷𝐡̶͡𝐚𝐧̈͜𝐧͜𝐞͜𝐥̵̲͞🔥̵̄͟"]
+global.canalNombreM = ["──͟͞꘩𓎇̶sʜᴀᴅᴏᴡ𝑡͜ꤩꤨ𝑠ꦁ⃯㍰ꫂ", "̶۫̄͟㉿𓏲𝚂𝙷𝙰𝙳𝙾𝚆̄𓊓̵̬𝐂̸͔һ͡ᥲ͓ᥒ̴͍ᥒ̷̈ᥱ̤ᥣ̵⋆͙̈么͟͞──","──̄͟͞⛛̵̅𝐒𝐇𝐀𝐃𝐎𝐖̸̤𝐁̷𝐨̶̇͜𝐭𓊓̴̻𝐂̷𝐡̶͡𝐚𝐧̈͜𝐧͜𝐞͜𝐥̵̲͞🔥̵̄͟"]
 global.channelRD = await getRandomChannel()
 
 //Reacciones De Comandos.!
@@ -62,17 +62,18 @@ global.done = '✅'
 global.error = '✖️'
 
 //Emojis determinado de Megumin
-global.emoji = '🔥'
-global.emoji2 = '💥'
-global.emoji3 = '❤️‍🔥'
+global.emoji = '⚡'
+global.emoji2 = '⚔️'
+global.emoji3 = '🍥'
 global.emoji4 = '🍭'
-global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
+global.emoji5 = '🔱'
+global.emojis = [emoji, emoji2, emoji3, emoji4, emoji5].getRandom()
 
 //mensaje en espera
-global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
+global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼...*';
+global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
+global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
+global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗼 ...*';
 
 //Enlaces
 var canal = 'https://whatsapp.com/channel/0029Vb7Ji66KbYMTYLU9km3p'  
@@ -103,6 +104,9 @@ global.nombre = conn.getName(m.sender)
 global.taguser = '@' + m.sender.split("@s.whatsapp.net")
 var more = String.fromCharCode(8206)
 global.readMore = more.repeat(850)
+
+global.packsticker = `°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°\n\n✦ Usuario: ${nombre}\n✦ Bot: ${botname}\n✦ Fecha: ${fecha}\n✦ Hora: ${tiempo}\n`
+global.author = `\n°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°\n\nMade By ꧁⟣٭𝕹𝕷𝕬٭⟢꧂`;
 
 //Fakes
 global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }

@@ -518,7 +518,7 @@ if (opts['autoread']) await this.readMessages([m.key])
 
 global.dfail = (type, m, conn) => {
 const msg = {
-rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> David-Chian.', 
+rowner: '「👑」 *Esta función solo puede ser usada por mi creador*', 
 owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador.', 
 premium: '「🍧」 *Esta función solo es para usuarios Premium.',  
 private: '「🍭」 *Esta función solo puede ser usada en chat privado.*', 

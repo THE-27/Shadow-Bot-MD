@@ -45,11 +45,11 @@ global.gt = '✰şħάȡόώ вόţ✰';
 global.namechannel = '𝕾𝖆𝖙𝖔𝖗𝖚 𝖌𝖔𝖏𝖔/✧͜͡҉ℕℒᎯ𖤍̸̷̶'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
-global.imagen1 = 'https://files.catbox.moe/6lhjit.jpg'
-global.imagen2 = 'https://files.catbox.moe/bm0q3s.jpg'
-global.imagen3 = 'https://files.catbox.moe/zrbazr.jpg'
-global.imagenadult = 'https://files.catbox.moe/3dbuvw.jpg'
-global.logo = 'https://files.catbox.moe/magmik.jpg'
+global.imagen1 = 'https://qu.ax/JtXxC.jpg'
+global.imagen2 = 'https://qu.ax/NFAoR.jpg'
+global.imagen3 = 'https://qu.ax/paVUB.jpg'
+global.imagenadult = 'https://qu.ax/Yjkse.jpg'
+global.logo = 'https://qu.ax/wVHFu.jpg'
 
 //• ↳ ◜𝑭𝑨𝑲𝑬 𝑬𝑺𝑻𝑰𝑳𝑶◞ • 🪩
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐', orderTitle: 'Bang', thumbnailUrl: logo, sellerJid: '0@s.whatsapp.net'}}}

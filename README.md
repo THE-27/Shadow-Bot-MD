@@ -53,7 +53,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/THE-27/Shadow-Bot&& cd Shadow-Bot
+git clone https://github.com/THE-27/Shadow-Bot && cd Shadow-Bot
 ```
 
 ```bash
@@ -74,3 +74,5 @@ npm start
 <a href="https://github.com/THE-27"><img src="https://github.com/THE-27.png" width="250" height="250" alt="THE-27"/></a>
 
 [© Powered By the-legends ⚡︎](https://whatsapp.com/channel/0029Vai28FR7dmea9gytQm3w)
+
+      Gracias 

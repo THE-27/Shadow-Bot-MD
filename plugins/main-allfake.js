@@ -117,14 +117,14 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://files.catbox.moe/f5yora.jpg',
-'https://files.catbox.moe/ny0hrb.jpg',
-'https://files.catbox.moe/cxrcml.jpg',
-'https://files.catbox.moe/jai8du.jpg',
-'https://files.catbox.moe/61i55j.jpg',
-'https://files.catbox.moe/1dqm9i.jpg',
-'https://files.catbox.moe/0hnyny.jpg',
-'https://qu.ax/CbzQU.jpg'
+'https://qu.ax/nhHli.jpg',
+'https://qu.ax/wVHFu.jpg',
+'https://qu.ax/Yjkse.jpg',
+'https://qu.ax/paVUB.jpg',
+'https://qu.ax/NFAoR.jpg',
+'https://qu.ax/JtXxC.jpg',
+'https://qu.ax/pvsyA.jpg',
+'https://qu.ax/SGFPF.jpg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '💥 ꜞᴱˡ ᵇᵒᵗ ᵐᵃˢ ᵉˣᵖˡᵒˢⁱᵛᵒꜝ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}

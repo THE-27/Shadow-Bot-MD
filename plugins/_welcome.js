@@ -25,7 +25,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
     let chat = global.db.data.chats[m.chat];
 
     if (chat.welcome && m.messageStubType === 27) {
-        let wel = `┌─❥ ${botname} \n│「 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎 😁 」\n└┬❥ 「 @${userId.split`@`[0]} 」\n   │  𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎/𝐀\n   │👻  ${groupMetadata.subject}\n   └───────────────┈ ⳹\n> ${dev}`;
+        let wel = ` ۬︵࣪᷼⏜݊᷼⏜࣪᷼✿⃘𐇽۫ꥈ࣪࣪࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪𑁍ٜ𐇽࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪✿݊᷼⏜࣪᷼⏜࣪᷼︵۬ ͜\n┌─❥ ${botname} \n│「 𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎 😁 」\n└┬❥ 「 @${userId.split`@`[0]} 」\n   │  𝐁𝐈𝐄𝐍𝐕𝐄𝐍𝐈𝐃𝐎/𝐀\n   │👻  ${groupMetadata.subject}\n   └───────────────┈ ⳹\n> ${dev}`;
         try {
             await conn.sendMini(m.chat, packname, dev, wel, img, img, channel, fkontak);
         } catch (sendError) {
@@ -35,7 +35,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
     // Mensaje de despedida (cuando se sale)
     if (chat.welcome && m.messageStubType === 28) {
-        let bye = `┌─❥ ${botname}︎ \n│「 𝐀𝐃𝐈Ó𝐒 🗣️‼️ 」\n└┬❥ 「 @${userId.split`@`[0]} 」\n   │😒  𝐒𝐄 𝐅𝐔𝐄 𝐄𝐒𝐄 𝐏𝐔𝐓𝐎\n   │🥀 𝐍𝐮𝐧𝐜𝐚 𝐓𝐞 𝐐𝐮𝐢𝐬𝐢𝐦𝐨𝐬 𝐀𝐪𝐮í\n   └───────────────┈ ⳹\n> ${dev}`;
+        let bye = ` ۬︵࣪᷼⏜݊᷼⏜࣪᷼✿⃘𐇽۫ꥈ࣪࣪࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪𑁍ٜ𐇽࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪✿݊᷼⏜࣪᷼⏜࣪᷼︵۬ ͜\n┌─❥ ${botname}︎ \n│「 𝐀𝐃𝐈Ó𝐒 🗣️‼️ 」\n└┬❥ 「 @${userId.split`@`[0]} 」\n   │😒  𝐒𝐄 𝐅𝐔𝐄 𝐄𝐒𝐄 𝐏𝐔𝐓𝐎\n   │🥀 𝐍𝐮𝐧𝐜𝐚 𝐓𝐞 𝐐𝐮𝐢𝐬𝐢𝐦𝐨𝐬 𝐀𝐪𝐮í\n   └───────────────┈ ⳹\n> ${dev}`;
         let img2;
         try {
             img2 = await (await fetch(goodbyeImage)).buffer(); 
@@ -47,7 +47,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 
     // Mensaje de expulsión (cuando se echa a alguien)
     if (chat.welcome && m.messageStubType === 32) {
-        let kick = `┌─❥ ${botname}\n│「 𝐀𝐃𝐈Ó𝐒 🗣️‼️ 」\n└┬❥ 「 @${userId.split`@`[0]} 」\n   │😒  𝐒𝐄 𝐅𝐔𝐄 𝐄𝐒𝐄 𝐏𝐔𝐓𝐎\n   │🥀 𝐍𝐮𝐧𝐜𝐚 𝐓𝐞 𝐐𝐮𝐢𝐬𝐢𝐦𝐨𝐬 𝐀𝐪𝐮í\n   └───────────────┈ ⳹\n> ${dev}`;
+        let kick = ` ۬︵࣪᷼⏜݊᷼⏜࣪᷼✿⃘𐇽۫ꥈ࣪࣪࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪𑁍ٜ𐇽࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪✿݊᷼⏜࣪᷼⏜࣪᷼︵۬ ͜\n┌─❥ ${botname}\n│「 𝐀𝐃𝐈Ó𝐒 🗣️‼️ 」\n└┬❥ 「 @${userId.split`@`[0]} 」\n   │😒  𝐒𝐄 𝐅𝐔𝐄 𝐄𝐒𝐄 𝐏𝐔𝐓𝐎\n   │🥀 𝐍𝐮𝐧𝐜𝐚 𝐓𝐞 𝐐𝐮𝐢𝐬𝐢𝐦𝐨𝐬 𝐀𝐪𝐮í\n   └───────────────┈ ⳹\n> ${dev}`;
         let img3;
         try {
             img3 = await (await fetch(goodbyeImage)).buffer();

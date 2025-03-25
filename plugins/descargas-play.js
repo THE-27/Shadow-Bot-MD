@@ -33,17 +33,21 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     const vistas = formatViews(views);
     const canal = author.name ? author.name : 'Desconocido';
         const infoMessage = `
-*𖹭.╭╭ִ╼ׅ࣪ﮩ٨ـﮩ♡̫𝗄𝗈𝗍𝗈֟፝𝗋𝗂-꯭𝖻꯭𝗈꯭𝗍ׅ♡ִ̫ﮩ٨ـﮩׅ╾࣪╮╮.𖹭*
-> ♡ *Título:* ${title || 'Desconocido'}
-*°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
-> ♡ *Duración:* ${timestamp || 'Desconocido'}
-*°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
-> ♡ *Vistas:* ${vistas || 'Desconocido'}
-*°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
-> ♡ *Canal:* ${canal}
-*°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°*
-> ♡ *Publicado:* ${ago || 'Desconocido'}
-*⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︣︢ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ۛ۫۫۫۫۫۫ۜ⏝ּׅ︢︣ׄۛ۫۫۫۫۫۫ۜ*`;
+  ׅ ֺ ֵ  ᡣᰍ ׄ 🍨̸ ׅ ˒˓ ֹ *ᥡ𝗍-ძᥱsᥴᥲrgᥲs* —장ׅ  ֹ
+          ┈─‌─‌─┈ 𓈒 ׄ 𔕬  ֵ  ┈─‌─‌─┈
+> ⚔️⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬ᴛɪᴛᴜʟᴏ » *${title || 'Desconocido'}*
+${emojis}⫘⫘⫘❁︩︪•°ֺ໋۪݊🌸°໋•︪︩❁⫘⫘⫘${emojis}
+> 🍥⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬ᴅᴜʀᴀᴄɪᴏɴ » *${timestamp || 'Desconocido'}*
+${emojis}⫘⫘⫘❁︩︪•°ֺ໋۪݊🌸°໋•︪︩❁⫘⫘⫘${emojis}
+> 🌨️⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬ᴠɪsᴛᴀs » *${vistas || 'Desconocido'}*
+${emojis}⫘⫘⫘❁︩︪•°ֺ໋۪݊🌸°໋•︪︩❁⫘⫘⫘${emojis}
+> ❄️⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬ᴄᴀɴᴀʟ » *${canal}
+${emojis}⫘⫘⫘❁︩︪•°ֺ໋۪݊🌸°໋•︪︩❁⫘⫘⫘${emojis}
+> 🍬⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬ᴘᴜʙʟɪᴄᴀᴅᴏ » ${ago || 'Desconocido'}
+${emojis}⫘⫘⫘❁︩︪•°ֺ໋۪݊🌸°໋•︪︩❁⫘⫘⫘${emojis}
+> 🍧⬪࣪ꥈ𑁍⃪࣭۪ٜ݊݊݊݊݊໑ٜ࣪⚘۪۬ᴜʀʟ » ${url}
+
+*⪩─ׅ─ׅ─๋︩︪─𖥸⊰‿⃝𝆬✿⃮⃝𝆬‿۪۪⊱𖥸─ׅ─ׅ─๋︩︪─⪨*`;
 
     const thumb = (await conn.getFile(thumbnail))?.data;
 

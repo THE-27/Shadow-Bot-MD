@@ -98,8 +98,8 @@ global.chatgpt.chain = lodash.chain(global.chatgpt.data);
 loadChatgptDB();
 
 global.creds = 'creds.json'
-global.authFile = 'MeguminSession'
-global.authFileJB  = 'MeguminJadiBot'
+global.authFile = `${sessions}`
+global.authFileJB  = `${jadi}`
 /*global.rutaBot = join(__dirname, authFile)
 global.rutaJadiBot = join(__dirname, authFileJB)
 

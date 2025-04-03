@@ -28,12 +28,12 @@ let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? c
 let mentionedJid = [who]
 let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-const vid = ['https://qu.ax/mDBOz.mp4', 'https://qu.ax/mDBOz.mp4', 'https://qu.ax/kjaSa.mp4']
+const vid = ['https://files.catbox.moe/04c09e.jpg', 'https://qu.ax/ZNurY.jpg', 'https://qu.ax/kjaSa.mp4']
 
 let menu = `ׅ ︵፝֟⏜ᩨ︵  ⋱   ⁝  ׄ ⋰  ︵ᩨ⏜︵፝֟  ׅ  \n\n✿𝆬    *𝖧𝗈𝗅𝖺 𝖡𝗂𝖾𝗇𝗏𝖾𝗇𝗂𝖽@* ☕ ᪲\n☕ ᪲  *𝖠𝗅 𝗆𝖾𝗇𝗎 𝖽𝖾 Shadow*  ✿𝆬\nス  *𝖼𝗋𝖾𝖺𝖽𝗈 𝗉𝗈𝗋  ꒰  ꧁⟣٭𝕹𝕷𝕬٭⟢꧂ ꒱*  🍮
   
 🍒⫘⫘⫘⫘⫘⫘❁︩︪•°ֺ໋۪݊🌸°໋•︪︩❁⫘⫘⫘⫘⫘⫘🍒        
-   📥✩⢄⢁--ᑲᥡ ꧁⟣٭𝕹𝕷𝕬٭⟢꧂࠭--⡈⡠✩🔱 
+   🚀✩⢄⢁--ᑲᥡ ꧁⟣٭𝕹𝕷𝕬٭⟢꧂࠭--⡈⡠✩🔱 
 
 *⚔️ ¡ʜᴏʟᴀ! \`${taguser}\` sᴏʏ ✦ sһᥲძ᥆ᥕ ✰, ${saludo}*
 
@@ -91,6 +91,7 @@ let menu = `ׅ ︵፝֟⏜ᩨ︵  ⋱   ⁝  ׄ ⋰  ︵ᩨ⏜︵፝֟  ׅ  \n\n
 *┊⚔️✎* .mercadolibre <búsqueda>
 *┊⚔️✎* .imagen <query>
 *┊⚔️✎* .pinterest
+*┊⚔️✎* .playstoresearch
 *┊⚔️✎* .tiktoksearch <txt>
 *┊⚔️✎* .soundcloudsearch
 *╰─ׅ─๋︩︪─𖥸⊰‿⃝𝆬✿⃮⃝𝆬‿۪۪⊱𖥸ׅ─ׅ─๋︩︪─❁ཻུ۪۪♡*
@@ -103,68 +104,68 @@ let menu = `ׅ ︵፝֟⏜ᩨ︵  ⋱   ⁝  ׄ ⋰  ︵ᩨ⏜︵፝֟  ׅ  \n\n
 *┊🍦✎* .pausarai
 *╰─ׅ─๋︩︪─𖥸⊰‿⃝𝆬✿⃮⃝𝆬‿۪۪⊱𖥸ׅ─ׅ─๋︩︪─❁ཻུ۪۪♡*
 
-𓂂𓏸  𐅹੭੭   *\`ᴊᴜᴇɢᴏs\`* 📥 ᦡᦡ
-*┊📥✎* .69 @tag
-*┊📥✎* .abrazar <@usuario>
-*┊📥✎* .acertijo
-*┊📥✎* .agarrar @tag
-*┊📥✎* .anal @tag
-*┊📥✎* .sonrojarse @tag
-*┊📥✎* .gay <@tag> | <nombre>
-*┊📥✎* .lesbiana <@tag> | <nombre>
-*┊📥✎* .pajero <@tag> | <nombre>
-*┊📥✎* .pajera <@tag> | <nombre>
-*┊📥✎* .puto <@tag> | <nombre>
-*┊📥✎* .puta <@tag> | <nombre>
-*┊📥✎* .manco <@tag> | <nombre>
-*┊📥✎* .manca <@tag> | <nombre>
-*┊📥✎* .rata <@tag> | <nombre>
-*┊📥✎* .prostituta <@tag> | <nombre>
-*┊📥✎* .prostituto <@tag> | <nombre>
-*┊📥✎* .apostar *<cantidad>*
-*┊📥✎* .chupartetas @tag
-*┊📥✎* .consejo
-*┊📥✎* .cum @tag
-*┊📥✎* .dance *<@user>*
-*┊📥✎* .formarpareja5
-*┊📥✎* .abrazar @tag
-*┊📥✎* .violar @tag
-*┊📥✎* .dormir @tag
-*┊📥✎* .lamber @tag
-*┊📥✎* .enamorada @tag
-*┊📥✎* .mamada @tag
-*┊📥✎* .meme
-*┊📥✎* .violar @tag
-*┊📥✎* .nombreninja *<texto>*
-*┊📥✎* .acariciar @tag
-*┊📥✎* .penetrar @user
-*┊📥✎* .personalidad
-*┊📥✎* .piropo
-*┊📥✎* .pokedex *<pokemon>*
-*┊📥✎* .pucheros @tag
-*┊📥✎* .pregunta
-*┊📥✎* .golpear @tag
-*┊📥✎* .reto
-*┊📥✎* .ruleta *<cantidad> <color>*
-*┊📥✎* .rusa @tag
-*┊📥✎* .triste @tag
-*┊📥✎* .scared @tag
-*┊📥✎* .sexo @tag
-*┊📥✎* .ship
-*┊📥✎* .love
-*┊📥✎* .timida @tag
-*┊📥✎* .simi
-*┊📥✎* .bot
-*┊📥✎* .dormir @tag
-*┊📥✎* .dormir @tag
-*┊📥✎* .top *<texto>*
-*┊📥✎* .violar @tag
-*┊📥✎* .tijeras @tag
-*┊📥✎* .zodiac *2002 02 25*
-*┊📥✎* .cancion
-*┊📥✎* .math <mode>
-*┊📥✎* .ppt
-*┊📥✎* .slot <apuesta>
+𓂂𓏸  𐅹੭੭   *\`ᴊᴜᴇɢᴏs\`* 🔥 ᦡᦡ
+*┊🔥✎* .69 @tag
+*┊🔥✎* .abrazar <@usuario>
+*┊🔥✎* .acertijo
+*┊🔥✎* .agarrar @tag
+*┊🔥✎* .anal @tag
+*┊🔥✎* .sonrojarse @tag
+*┊🔥✎* .gay <@tag> | <nombre>
+*┊🔥✎* .lesbiana <@tag> | <nombre>
+*┊🔥✎* .pajero <@tag> | <nombre>
+*┊🔥✎* .pajera <@tag> | <nombre>
+*┊🔥✎* .puto <@tag> | <nombre>
+*┊🔥✎* .puta <@tag> | <nombre>
+*┊🔥✎* .manco <@tag> | <nombre>
+*┊🔥✎* .manca <@tag> | <nombre>
+*┊🔥✎* .rata <@tag> | <nombre>
+*┊🔥✎* .prostituta <@tag> | <nombre>
+*┊🔥✎* .prostituto <@tag> | <nombre>
+*┊🔥✎* .apostar *<cantidad>*
+*┊🔥✎* .chupartetas @tag
+*┊🔥✎* .consejo
+*┊🔥✎* .cum @tag
+*┊🔥✎* .dance *<@user>*
+*┊🔥✎* .formarpareja5
+*┊🔥✎* .abrazar @tag
+*┊🔥✎* .violar @tag
+*┊🔥✎* .dormir @tag
+*┊🔥✎* .lamber @tag
+*┊🔥✎* .enamorada @tag
+*┊🔥✎* .mamada @tag
+*┊🔥✎* .meme
+*┊🔥✎* .violar @tag
+*┊🔥✎* .nombreninja *<texto>*
+*┊🔥✎* .acariciar @tag
+*┊🔥✎* .penetrar @user
+*┊🔥✎* .personalidad
+*┊🔥✎* .piropo
+*┊🔥✎* .pokedex *<pokemon>*
+*┊🔥✎* .pucheros @tag
+*┊🔥✎* .pregunta
+*┊🔥✎* .golpear @tag
+*┊🔥✎* .reto
+*┊🔥✎* .ruleta *<cantidad> <color>*
+*┊🔥✎* .rusa @tag
+*┊🔥✎* .triste @tag
+*┊🔥✎* .scared @tag
+*┊🔥✎* .sexo @tag
+*┊🔥✎* .ship
+*┊🔥✎* .love
+*┊🔥✎* .timida @tag
+*┊🔥✎* .simi
+*┊🔥✎* .bot
+*┊🔥✎* .dormir @tag
+*┊🔥✎* .dormir @tag
+*┊🔥✎* .top *<texto>*
+*┊🔥✎* .violar @tag
+*┊🔥✎* .tijeras @tag
+*┊🔥✎* .zodiac *2002 02 25*
+*┊🔥✎* .cancion
+*┊🔥✎* .math <mode>
+*┊🔥✎* .ppt
+*┊🔥✎* .slot <apuesta>
 *╰─ׅ─๋︩︪─𖥸⊰‿⃝𝆬✿⃮⃝𝆬‿۪۪⊱𖥸ׅ─ׅ─๋︩︪─❁ཻུ۪۪♡*
 
 𓂂𓏸  𐅹੭੭   *\`ʀᴏʟʟᴡᴀɪғᴜ\`* 🧃 ᦡᦡ
@@ -312,6 +313,7 @@ let menu = `ׅ ︵፝֟⏜ᩨ︵  ⋱   ⁝  ׄ ⋰  ︵ᩨ⏜︵፝֟  ׅ  \n\n
 
 𓂂𓏸  𐅹੭੭   *\`ᴅᴇsᴄᴀʀɢᴀs\`* 📥 ᦡᦡ
 *┊📥✎* .facebook
+*┊📥✎* .facebook
 *┊📥✎* .fb
 *┊📥✎* .play
 *┊📥✎* .playvid
@@ -323,6 +325,7 @@ let menu = `ׅ ︵፝֟⏜ᩨ︵  ⋱   ⁝  ׄ ⋰  ︵ᩨ⏜︵፝֟  ׅ  \n\n
 *┊📥✎* .sound
 *┊📥✎* .apkmod
 *┊📥✎* .ytmp3doc
+*┊📥✎* .playstoredl *<url>*
 *┊📥✎* .ytmp4doc
 *┊📥✎* .spotify
 *┊📥✎* .tiktok
@@ -485,7 +488,7 @@ let menu = `ׅ ︵፝֟⏜ᩨ︵  ⋱   ⁝  ׄ ⋰  ︵ᩨ⏜︵፝֟  ׅ  \n\n
 
 > ${dev}`.trim()
 
-await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
+await conn.sendMessage(m.chat, { video: { url: vid.getRandom() }, caption: menu, contextInfo: { mentionedJid: [m.sender], isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, newsletterName: channelRD.name, serverMessageId: -1, }, forwardingScore: 999, externalAdReply: { title: '⏤͟͞ू⃪ ፝͜⁞✦ sһᥲძ᥆ᥕ ✰⃔࿐', body: dev, thumbnailUrl: perfil, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false,
 }, }, gifPlayback: true, gifAttribution: 0 }, { quoted: null })
 await m.react(emojis)    
 

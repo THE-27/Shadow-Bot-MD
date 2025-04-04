@@ -73,7 +73,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/THE-27/Shadow-Bot && cd Shadow-Bot-MD
+git clone https://github.com/THE-27/Shadow-Bot-MD && cd Shadow-Bot-MD
 ```
 
 ```bash
@@ -89,12 +89,12 @@ npm start
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
-------------------
-### ACTIVAR EN CODIGOS ESPACIOS
+---------------------------------
+**ACTIVAR EN CODIGOS ESPACIOS**
 
-[`CREAR SERVIDOR`](https://cautious-sniffle-5gr5r4qjr79ghp77g.github.dev/)
+[`𝐂𝐑𝐄𝐀𝐑 𝐒𝐄𝐑𝐕𝐈𝐃𝐎𝐑`](https://cautious-sniffle-5gr5r4qjr79ghp77g.github.dev/)
 
-------------------
+---------------------------------
 
 
 ## **`⚔️ 𝑷𝒓𝒐𝒑𝒊𝒆𝒕𝒂𝒓𝒊𝒐 𝑫𝒆𝒍 𝑩𝒐𝒕`**

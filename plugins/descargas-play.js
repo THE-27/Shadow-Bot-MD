@@ -96,7 +96,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 
     user.estrellas -= 2;
-    conn.reply(m.chat, `ꕥ Has utilizado 2 *${moneda}* ⛃`, m);
+    conn.reply(m.chat, `ꕥ һᥲs ᥙ𝗍іᥣіzᥲძ᥆ 2 *${moneda}* ⛃`, m);
 
   } catch (error) {
     return m.reply(`⚠︎ Ocurrió un error: ${error}`);

@@ -89,7 +89,7 @@ npm start
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
----------------------------------
+---------------------------------\n
 **ACTIVAR EN CODIGOS ESPACIOS**
 
 [`𝐂𝐑𝐄𝐀𝐑 𝐒𝐄𝐑𝐕𝐈𝐃𝐎𝐑`](https://cautious-sniffle-5gr5r4qjr79ghp77g.github.dev/)

@@ -92,6 +92,7 @@ let menu = `ׅ ︵፝֟⏜ᩨ︵  ⋱   ⁝  ׄ ⋰  ︵ᩨ⏜︵፝֟  ׅ  \n\n
 *┊⚔️✎* .imagen <query>
 *┊⚔️✎* .pinterest
 *┊⚔️✎* .playstoresearch
+*┊⚔️✎* .spotifys
 *┊⚔️✎* .tiktoksearch <txt>
 *┊⚔️✎* .soundcloudsearch
 *╰─ׅ─๋︩︪─𖥸⊰‿⃝𝆬✿⃮⃝𝆬‿۪۪⊱𖥸ׅ─ׅ─๋︩︪─❁ཻུ۪۪♡*

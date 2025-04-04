@@ -33,7 +33,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 *│✰ _Grupo_ »  ${groupMetadata.subject}*
 *├┅┅┅┅┈┈┈┈┈┈┈┈┈┅┅┅◆*
 *│● _Edita con el comando "setbye"_*
-*│(˶˃⤙˂˶) *
+*│(˶˃⤙˂˶)*
 *│➮ Puedes usar _/menu_ para ver la │lista de comandos.*
 *╰┉┉┉┉┈┈┈┈┈┈┈┈┈┉┉┉᛫᛭*`;
         try {

@@ -58,7 +58,7 @@ global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(fa
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
 global.ofcgp = 'https://chat.whatsapp.com/F4QEFF2Hn4102NdbPJ2ZOi' //Grupo Oficial De Megumin
-global.gp1 = 'https://chat.whatsapp.com/DSz2abnPgfE4IzZjynQLu3' //Grupo de Kotori Bot
+global.gp1 = 'https://whatsapp.com/channel/0029Vb6BDQc0lwgsDN1GJ31i' //Grupo de Kotori Bot
 global.gp2 = 'https://chat.whatsapp.com/J9gyFJLbhVIJXaUZlpo8Xt'//Grupo de enlaces
 global.comunidad1 = 'https://chat.whatsapp.com/DWQb1xZClyR98ogvwI3qae' //Comunidad Megumin
 global.channel = 'https://whatsapp.com/channel/0029VaqAtuIK0IBsHYXtvA3e' //Canal Oficial

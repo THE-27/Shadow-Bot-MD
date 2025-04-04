@@ -89,11 +89,9 @@ npm start
 
 <!-- RAINBOW LINE BOT -->
 <img src="https://github.com/AnderMendoza/AnderMendoza/raw/main/assets/line-neon.gif" width="100%">
----------------------------------\n
-**ACTIVAR EN CODIGOS ESPACIOS**
 
+---------------------------------
 [`𝐂𝐑𝐄𝐀𝐑 𝐒𝐄𝐑𝐕𝐈𝐃𝐎𝐑`](https://cautious-sniffle-5gr5r4qjr79ghp77g.github.dev/)
-
 ---------------------------------
 
 
@@ -103,4 +101,4 @@ href="https://github.com/THE-27"><img src="https://github.com/THE-27.png" width=
 
 </details>
 
-> **[✎ P᥆ᥕᥱrᥱძ ᑲᥡ m᥆᥆ᥒ𝖿᥆rᥴᥱ 𝗍ᥱᥲm ❀](https://whatsapp.com/channel/0029VaxkClI1NCrW4BX5rn3g)**
+> **[✎ P᥆ᥕᥱrᥱძ ᑲᥡ ✧͜͡ℕℒᎯ ❀](https://whatsapp.com/channel/0029VaxkClI1NCrW4BX5rn3g)**

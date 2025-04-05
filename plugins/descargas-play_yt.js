@@ -285,9 +285,9 @@ const texto1 = `📌 *Título* : ${yt_play[0].title}\n📆 *Publicado:* ${yt_pla
 await conn.sendButton(m.chat, texto1, botname, yt_play[0].thumbnail, [['Audio', `${usedPrefix}ytmp3 ${yt_play[0].url}`], ['video', `${usedPrefix}ytmp4 ${yt_play[0].url}`], ['Mas resultados', `${usedPrefix}yts ${text}`]], null, null, m)
 }*/
 }
-handler.help = ['yta', 'ytv', 'ytmp3doc', 'ytmp4doc', 'playdoc', 'playdoc2'];
+handler.help = ['ytmp3', 'ytmp4', 'ytmp3doc', 'ytmp4doc', 'playdoc', 'playdoc2'];
 handler.tags = ['downloader'];
-handler.command = ['yta', 'ytv', 'ytmp3doc', 'ytmp4doc', 'playdoc', 'playdoc2'];
+handler.command = ['ytmp3', 'ytmp4', 'ytmp3doc', 'ytmp4doc', 'playdoc', 'playdoc2'];
 handler.register = true 
 export default handler;
 

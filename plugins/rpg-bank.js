@@ -8,16 +8,18 @@ let handler = async (m, { conn, usedPrefix }) => {
     let user = global.db.data.users[who]
     let total = (user.coin || 0) + (user.bank || 0);
 
-    const texto = `ᥫ᭡ Informacion -  Economia ❀
+    const texto = `𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐜𝐢𝐨𝐧 -  𝐄𝐜𝐨𝐧𝐨𝐦𝐢𝐚 ❀
  
-ᰔᩚ Usuario » *${conn.getName(who)}*   
-⛀ Dinero » *${user.coin} ${moneda}*
-⚿ Banco » *${user.bank} ${moneda}*
-⛁ Total » *${total} ${moneda}*
+╭ - ̗̀↳🍨ꕤ——— ◌ ——— ꕤ╮
+┊ᰔᩚ ᥙsᥙᥲrі᥆ » *${conn.getName(who)}*   
+┊⛀ ძіᥒᥱr᥆ » *${user.coin} ${moneda}*
+┊⚿ ᑲᥲᥒᥴ᥆ » *${user.bank} ${moneda}*
+┊⛁ 𝗍᥆𝗍ᥲᥣ » *${total} ${moneda}*
+╰ - ̗̀↳⚔️ꕤ——— ◌ ——— ꕤ╯
 
-> *Para proteger tu dinero, ¡depósitalo en el banco usando #deposit!*`;
+> *⍴ᥲrᥲ ⍴r᥆𝗍ᥱgᥱr 𝗍ᥙ ძіᥒᥱr᥆, ¡ძᥱ⍴ósі𝗍ᥲᥣ᥆ ᥱᥒ ᥱᥣ ᑲᥲᥒᥴ᥆ ᥙsᥲᥒძ᥆ #deposit*`;
 
-    await conn.reply(m.chat, texto, m)
+    await conn.reply(m.chat, texto, m, rcanal)
 }
 
 handler.help = ['bal']

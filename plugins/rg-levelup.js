@@ -19,12 +19,12 @@ let handler = async (m, { conn }) => {
     while (canLevelUp(user.level, user.exp, global.multiplier)) user.level++;
 
     if (before !== user.level) {
-        let txt = `ᥫ᭡ Felicidades Has subido de nivel ❀\n\n`; 
+        let txt = `⚔️ Felicidades Has subido de nivel ❀\n\n`; 
         txt += `*${before}* ➔ *${user.level}* [ ${user.role} ]\n\n`;
-        txt += `• ✰ *Nivel anterior* : ${before}\n`;
-        txt += `• ✦ *Nuevos niveles* : ${user.level}\n`;
-        txt += `• ❖ *Fecha* : ${new Date().toLocaleString('id-ID')}\n\n`;
-        txt += `> ➨ Nota: *Cuanto más interactúes con el Bot, mayor será tu nivel.*`;
+        txt += `• ✰ *𝑵𝒊𝒗𝒆𝒍 𝒂𝒏𝒕𝒆𝒓𝒊𝒐𝒓* : ${before}\n`;
+        txt += `• ✦ *𝑵𝒖𝒆𝒗𝒐𝒔 𝑵𝒊𝒗𝒆𝒍𝒆𝒔* : ${user.level}\n`;
+        txt += `• ❖ *𝑭𝒆𝒄𝒉𝒂* : ${new Date().toLocaleString('id-ID')}\n\n`;
+        txt += `> ➨ 𝑵𝒐𝒕𝒂: *ᥴᥙᥲᥒ𝗍᥆ más іᥒ𝗍ᥱrᥲᥴ𝗍úᥱs ᥴ᥆ᥒ ᥱᥣ ᑲ᥆𝗍, mᥲᥡ᥆r sᥱrá 𝗍ᥙ ᥒі᥎ᥱᥣ.*`;
         await conn.sendMessage(m.chat, { text: txt }, { quoted: m });
     } else {
         let users = Object.entries(global.db.data.users).map(([key, value]) => {
@@ -35,12 +35,12 @@ let handler = async (m, { conn }) => {
         let rank = sortedLevel.findIndex(u => u.jid === who) + 1;
 
         let txt = `*「✿」Usuario* ◢ ${name} ◤\n\n`;
-        txt += `✦ Nivel » *${user.level}*\n`;
-        txt += `✰ Experiencia » *${user.exp}*\n`;
-        txt += `❖ Rango » ${user.role}\n`;
-        txt += `➨ Progreso » *${user.exp - min} => ${xp}* _(${Math.floor(((user.exp - min) / xp) * 100)}%)_\n`;
-        txt += `# Puesto » *${rank}* de *${sortedLevel.length}*\n`;
-        txt += `❒ Comandos totales » *${user.commands || 0}*`;
+        txt += `✦ ᥒі᥎ᥱᥣ » *${user.level}*\n`;
+        txt += `✰ ᥱ᥊⍴ᥱrіᥱᥒᥴіᥲ » *${user.exp}*\n`;
+        txt += `❖ rᥲᥒg᥆ » ${user.role}\n`;
+        txt += `➨ ⍴r᥆grᥱs᥆ » *${user.exp - min} => ${xp}* _(${Math.floor(((user.exp - min) / xp) * 100)}%)_\n`;
+        txt += `# ⍴ᥙᥱs𝗍᥆ » *${rank}* de *${sortedLevel.length}*\n`;
+        txt += `❒ ᥴ᥆mᥲᥒძ᥆s 𝗍᥆𝗍ᥲᥣᥱs » *${user.commands || 0}*`;
 
         await conn.sendMessage(m.chat, { text: txt }, { quoted: m });
     }

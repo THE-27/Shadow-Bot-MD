@@ -2,99 +2,102 @@ import moment from 'moment-timezone';
 
 let handler = async (m, { conn, args }) => {
 let owner = `
+• 𝐌𝐄𝐍𝐔-𝐎𝐖𝐍𝐄𝐑 •
+•° ☁️ *BY ${botname}* ⚔️ °•
+
 һ᥆ᥣᥲ! s᥆ᥡ  *${botname}*  ٩(˘◡˘)۶
 ᥲ𝗊ᥙí 𝗍іᥱᥒᥱs ᥣᥲ ᥣіs𝗍ᥲ ძᥱ ᥴ᥆mᥲᥒძ᥆s ძᥱ m᥆ძs ᥡ ᥆ᥕᥒᥱrs
 
 »  ⊹˚• \`OWNERS\` •˚⊹
 
 ❀ ᥴ᥆mᥲᥒძ᥆s ძᥱ m᥆ძᥱrᥲᥴіóᥒ ᥡ ᥴ᥆ᥒ𝗍r᥆ᥣ ᥲ᥎ᥲᥒzᥲძ᥆ ⍴ᥲrᥲ ᥆ᥕᥒᥱrs.
-ᰔᩚ *#addowner • #delowner*
+┊ *#addowner • #delowner*
 > ✦ Agrega o elimina un número de la lista de owners.
-ᰔᩚ *#codigo*
+┊ *#codigo*
 > ✦ Crea un token o código de canjeó de códigos.
-ᰔᩚ *#backup • #copia*
+┊ *#backup • #copia*
 > ✦ Crear un respaldo de seguridad de la *db* del Bot.
-ᰔᩚ *#bcgc*
+┊ *#bcgc*
 > ✦ Envia un mensaje a todos los grupos donde este el Bot.
-ᰔᩚ *#cleanfiles*
+┊ *#cleanfiles*
 > ✦ Elimina archivos temporales.
-ᰔᩚ *#addcoins • #añadircoin*
+┊ *#addcoins • #añadircoin*
 > ✦ Añade coins a un usuario.
-ᰔᩚ *#userpremium • #addprem*
+┊ *#userpremium • #addprem*
 > ✦ Otorgar premium a un usuario.
-ᰔᩚ *#delprem #remove*
+┊ *#delprem #remove*
 > ✦ Quitar premium a un usuario.
-ᰔᩚ *#addexp • #añadirxp*
+┊ *#addexp • #añadirxp*
 > ✦ Añade XP a un usuario.
-ᰔᩚ *#autoadmin*
+┊ *#autoadmin*
 > ✦ El Bot dara admin automáticamente solo si el Bot es admin.
-ᰔᩚ *#listban • #banlist*
+┊ *#listban • #banlist*
 > ✦ Lista de usuarios y chats baneados.
-ᰔᩚ *#banuser*
+┊ *#banuser*
 > ✦ Banear a un usuario.
-ᰔᩚ *#unbanuser*
+┊ *#unbanuser*
 > ✦ Desbanear a un usuario.
-ᰔᩚ *#dsowner • #delai*
+┊ *#dsowner • #delai*
 > ✦ Elimina archivos innecesarios de sesión.
-ᰔᩚ *#cleartmp • #vaciartmp*
+┊ *#cleartmp • #vaciartmp*
 > ✦ Elimina archivo innecesarios de la carpeta tmp.
-ᰔᩚ *#block • #unblock*
+┊ *#block • #unblock*
 > ✦ Bloquear o desbloquear a un usuario del número del Bot.
-ᰔᩚ *#listblock • #blocklist*
+┊ *#listblock • #blocklist*
 > ✦ Ver listado de usuarios bloqueados.
-ᰔᩚ *#removecoin • #quitarcoin*
+┊ *#removecoin • #quitarcoin*
 > ✦ Quitar coins a un usuario.
-ᰔᩚ *#deletedatauser • #resetuser*
+┊ *#deletedatauser • #resetuser*
 > ✦ Restablecer los datos de un usuario.
-ᰔᩚ *#removexp • #quitarxp*
+┊ *#removexp • #quitarxp*
 > ✦ Quitar XP a un usuario.
-ᰔᩚ *#newgc #creargc*
+┊ *#newgc #creargc*
 > ✦ Crea un nuevo grupo desde el número del Bot.
-ᰔᩚ *#deletefile*
+┊ *#deletefile*
 > ✦ Elimina archivos del Bot
-ᰔᩚ *#get • #fetch*
+┊ *#get • #fetch*
 > ✦ Ver el estado de una página web.
-ᰔᩚ *#plugin • #getplugin*
+┊ *#plugin • #getplugin*
 > ✦ Extraer un plugin de los archivos del Bot.
-ᰔᩚ *#grouplist • #listgroup*
+┊ *#grouplist • #listgroup*
 > ✦ Ver listado de grupos en los que está unido el Bot.
-ᰔᩚ *#join • #invite*
+┊ *#join • #invite*
 > ✦ Agregar el Bot a un grupo mediante el enlace de invitación.
-ᰔᩚ *#leave • #salir*
+┊ *#leave • #salir*
 > ✦ Sacar el Bot de un grupo.
-ᰔᩚ *#let*
+┊ *#let*
 > ✦ Envia un mensaje con una duración de 1 hora.
-ᰔᩚ *#prefix*
+┊ *#prefix*
 > ✦ Ver o cambiar el prefijo del Bot.
-ᰔᩚ *#resetprefix*
+┊ *#resetprefix*
 > ✦ Restablecer el prefijo del Bot.
-ᰔᩚ *#reiniciar • #restart*
+┊ *#reiniciar • #restart*
 > ✦ Reiniciar el servidor del Bot.
-ᰔᩚ *#reunion • #meeting*
+┊ *#reunion • #meeting*
 > ✦ Envia un aviso de reunión a los owners.
-ᰔᩚ *#savejs • #savefile*
+┊ *#savejs • #savefile*
 > ✦ Guarda un archivo en una de las rutas del Bot.
-ᰔᩚ *#saveplugin*
+┊ *#saveplugin*
 > ✦ Guarda un plugin en la carpeta de comandos del Bot.
-ᰔᩚ *#setbanner*
+┊ *#setbanner*
 > ✦ Cambia la imagen del menu principal del Bot.
-ᰔᩚ *#setavatar*
+┊ *#setavatar*
 > ✦ Cambia la imagen del catálogo.
-ᰔᩚ *#addcmd • #setcmd*
+┊ *#addcmd • #setcmd*
 > ✦ Guarda un sticker/imagen como texto o comando.
-ᰔᩚ *#delcmd*
+┊ *#delcmd*
 > ✦ Elimina el texto/comando del Bot.
-ᰔᩚ *#cmdlist • #listcmd*
+┊ *#cmdlist • #listcmd*
 > ✦ Ver listado de textos/comandos.
-ᰔᩚ *#setimage • #setpfp*
+┊ *#setimage • #setpfp*
 > ✦ Cambia la foto del perfil del Bot.
-ᰔᩚ *#setmoneda*
+┊ *#setmoneda*
 > ✦ Cambia la moneda del Bot.
-ᰔᩚ *#setname*
+┊ *#setname*
 > ✦ Cambia el nombre del Bot
-ᰔᩚ *#setbio • #setstatus*
+┊ *#setbio • #setstatus*
 > ✦ Cambia la biografía del Bot.
-ᰔᩚ *#update*
+┊ *#update*
 > ✦ Actualiza el Bot a la versión más reciente de GitHub.
 `.trim();
 

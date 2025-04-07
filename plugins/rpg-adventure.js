@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 let handler = async (m, { conn }) => {
 let user = global.db.data.users[m.sender];
-let img = 'https://qu.ax/sxCbF.jpg';
+let img = 'https://qu.ax/KEXaA.jpg';
 if (!user) {
 return conn.reply(m.chat, `${emoji} El usuario no se encuentra en la base de Datos.`, m);
 }
@@ -58,7 +58,7 @@ let info = `🛫 Te has aventurado en el *<${randomKingdom}>*\n` +
 `💎 *Diamantes Ganados:* ${diamonds}\n` +
 `✨ *Experiencia Ganada:* ${exp}\n` +
 `❤️ *Salud Actual:* ${user.health}`;
-await conn.sendFile(m.chat, img, 'yuki.jpg', info, fkontak);
+await conn.sendFile(m.chat, img, 'Shadow.jpg', info, fkontak);
 }
 
 handler.help = ['aventura', 'adventure'];

@@ -23,23 +23,25 @@ let handler = async (m, { conn, args }) => {
     let coins = user.coin || 0;
     let bankCoins = user.bank || 0;
 
-    let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://files.catbox.moe/xr2m6u.jpg');
+    let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://qu.ax/VDtoR.jpg');
 
     let profileText = `
 「✿」 *Perfil* ◢@${userId.split('@')[0]}◤
-${description}
 
-✦ Edad » ${user.age || 'Desconocida'}
+✯ *Descripción* » ${description}
+✦ *Edad* » ${user.age || 'Desconocida'}
 ♛ *Cumpleaños* » ${cumpleanos}
 ⚥ *Género* » ${genero}
 ♡ *Casado con* » ${pareja}
 
+「 ✦ *Recursos - User* ⛃ 」
 ☆ *Experiencia* » ${exp.toLocaleString()}
 ❖ *Nivel* » ${nivel}
 ✎ Rango » ${role}
 
 ⛁ *Coins Cartera* » ${coins.toLocaleString()} ${moneda}
 ⛃ *Coins Banco* » ${bankCoins.toLocaleString()} ${moneda}
+
 ❁ *Premium* » ${user.premium ? '✅' : '❌'}
   `.trim();
 
@@ -48,7 +50,7 @@ ${description}
         contextInfo: {
             mentionedJid: [userId],
             externalAdReply: {
-                title: '✧ Perfil de Usuario ✧',
+                title: '✧ ★᭄ꦿ᭄ꦿ𝑝𝑒𝑟𝑓𝑖𝑙 𝑑𝑒 𝑢𝑠𝑢𝑎𝑟𝑖𝑜★᭄ꦿ᭄ꦿ✧',
                 body: dev,
                 thumbnailUrl: perfil,
                 mediaType: 1,

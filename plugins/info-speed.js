@@ -21,22 +21,22 @@ let groups = Object.entries(conn.chats).filter(([jid, chat]) => jid.endsWith('@g
 
 
 let texto = `${emoji} *${packname}*
-🚀 *Velocidad:*
+🚀 *᥎ᥱᥣ᥆ᥴіძᥲძ:*
 → ${latensi.toFixed(4)}
 
-🕒 *Activo Durante:*
+🕒 *Aᥴ𝗍і᥎᥆ Dᥙrᥲᥒ𝗍ᥱ:*
 → ${muptime}
 
-💫 *Chats:*
-→ ${chats.length} *Chats privados*
-→ ${groups.length} *Grupos*
+❄️ *Cһᥲ𝗍s:*
+→ ${chats.length} *𝐂𝐡𝐚𝐭𝐬 𝐏𝐫𝐢𝐯𝐚𝐝𝐨𝐬*
+→ ${groups.length} *𝐆𝐫𝐮𝐩𝐨𝐬*
 
-🏆 *Servidor:*
-➤ *Ram ⪼* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
+🏆 *sᥱr᥎іძ᥆r:*
+➤ *Rᥲm ⪼* ${format(totalmem() - freemem())} / ${format(totalmem())}`.trim()
 
 m.react('✈️')
 
-conn.reply(m.chat, texto, m, )
+conn.reply(m.chat, texto, m, rcanal, )
 
 }
 handler.help = ['speed']

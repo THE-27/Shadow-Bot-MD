@@ -16,11 +16,35 @@ export async function before(m, { conn, participants, groupMetadata }) {
   }
 
   if (chat.welcome && m.messageStubType == 27) {
-    let bienvenida = `❀ *Bienvenido* a ${groupMetadata.subject}\n✰ @${m.messageStubParameters[0].split`@`[0]}\n${global.welcom1}\n✦ Ahora somos ${groupSize} Miembros.\n•(=^●ω●^=)• Disfruta tu estadía en el grupo!\n> ✐ Puedes usar *#help* para ver la lista de comandos.`    
+    let bienvenida = `۬︵࣪᷼⏜݊᷼⏜࣪᷼✿⃘𐇽۫ꥈ࣪࣪࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪𑁍ٜ𐇽࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪✿݊᷼⏜࣪᷼⏜࣪᷼︵۬ ͜\n
+*╭ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─*
+*┆──〘 BIENVENIDO/A ^^  〙───*
+*├┅┅┅┅┈┈┈┈┈┈┈┈┈┅┅┅◆*
+*│❀ _Usuario_ » @${m.messageStubParameters[0].split`@`[0]}*
+*│✰ _Grupo_ » ${groupMetadata.subject}*
+*├┅┅┅┅┈┈┈┈┈┈┈┈┈┅┅┅◆*
+*│${global.welcom1}*
+*│✦ Ahora somos ${groupSize} Miembros.*
+*│•(=^●ω●^=)• Disfruta tu estadía en el grupo!*
+*│✐ Puedes usar _/menu_ para ver la*
+*│lista de comandos.*
+*╰┉┉┉┉┈┈┈┈┈┈┈┈┈┉┉┉᛫᛭*`    
     await conn.sendMini(m.chat, txt, dev, bienvenida, img, img, redes, fkontak)
   }
   
   if (chat.welcome && (m.messageStubType == 28 || m.messageStubType == 32)) {
-    let bye = `❀ *Adiós* de ${groupMetadata.subject}\n✰ @${m.messageStubParameters[0].split`@`[0]}\n${global.welcom2}\n✦ Ahora somos ${groupSize} Miembros.\n•(=^●ω●^=)• Te esperamos pronto!\n> ✐ Puedes usar *#help* para ver la lista de comandos.`
+    let bye = `︵࣪᷼⏜݊᷼⏜࣪᷼✿⃘𐇽۫ꥈ࣪࣪࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪𑁍ٜ𐇽࣪࣪࣪࣪࣪𝇈⃘۫ꥈ࣪࣪࣪࣪࣪✿݊᷼⏜࣪᷼⏜࣪᷼︵۬ ͜\n
+*╭ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─ׂ┄─ׅ─ׂ┄─*
+*┆──〘 ADIOS 😒 ^^  〙───*
+*├┅┅┅┅┈┈┈┈┈┈┈┈┈┅┅┅◆*
+*│❀ _Usuario_ » @${m.messageStubParameters[0].split`@`[0]}*
+*│✰ _Grupo_ » ${groupMetadata.subject}*
+*├┅┅┅┅┈┈┈┈┈┈┈┈┈┅┅┅◆*
+*│${global.welcom2}*
+*│✦ Ahora somos ${groupSize} Miembros.*
+*│•(=^●ω●^=)• Te esperamos pronto!*
+*│✐ Puedes usar _/menu_ para ver la*
+*│lista de comandos.*
+*╰┉┉┉┉┈┈┈┈┈┈┈┈┈┉┉┉᛫᛭*`
     await conn.sendMini(m.chat, txt1, dev, bye, img, img, redes, fkontak)
   }}

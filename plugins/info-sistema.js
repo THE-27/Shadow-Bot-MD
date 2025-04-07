@@ -33,30 +33,38 @@ const handler = async (m, { conn }) => {
     const nodeUsage = process.memoryUsage();
     const diskSpace = getDiskSpace();
 
-    const message = `${done} *ESTADO DEL SISTEMA*
+    const message = `
+╭࣭࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🚀⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫╮
+\`${done} *ESTADO DEL SISTEMA*\`
+╰┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫┄̸࣭۫┄̸࣭࣭࣭࣭࣭ٜ۫┄̸࣭࣭࣭࣭࣭ٜ۫┄࣭࣭࣭۫☪︎︎︎̸⃘̸࣭ٜ࣪࣪࣪۬◌⃘۪֟፝֯۫۫︎⃪𐇽۫۬🍧⃘⃪۪֟፝֯۫۫۫۬◌⃘࣭ٜ࣪࣪࣪۬☪︎︎︎︎̸┄̸࣭࣭࣭࣭࣭ٜ۫╯ׂ
 
-⚜️ *Host ⪼* ${hostname}
-🏆 *Plataforma ⪼* ${platform}
-💫 *Arquitectura ⪼* ${arch}
-🥷 *RAM Total ⪼* ${formatBytes(totalMem)}
-🚀 *RAM Libre ⪼* ${formatBytes(freeMem)}
-⌛️ *RAM Usada ⪼* ${formatBytes(usedMem)}
-🕒 *Tiempo Activo ⪼* ${muptime}
+╭•❖━━━━━-ˋˏ༻༺ˎˊ-━━━━━❖•╮
+│⚜️ *Host ⪼* ${hostname}
+│🏆 *Plataforma ⪼* ${platform}
+│💫 *Arquitectura ⪼* ${arch}
+│🥷 *RAM Total ⪼* ${formatBytes(totalMem)}
+│🚀 *RAM Libre ⪼* ${formatBytes(freeMem)}
+│⌛️ *RAM Usada ⪼* ${formatBytes(usedMem)}
+│🕒 *Tiempo Activo ⪼* ${muptime}
+╰•❖━━━━━-ˋˏ༻༺ˎˊ-━━━━━❖•╯
 
-💻 *Uso de Memoria Nodejs:* 
-→ RSS: ${formatBytes(nodeUsage.rss)}
-→ Heap Total: ${formatBytes(nodeUsage.heapTotal)}
-→ Heap Usado: ${formatBytes(nodeUsage.heapUsed)}
-→ Externa: ${formatBytes(nodeUsage.external)}
-→ Arreglos: ${formatBytes(nodeUsage.arrayBuffers)}
+╭•❖━━━━━-ˋˏ༻༺ˎˊ-━━━━━❖•╮
+│💻 *Uso de Memoria Nodejs:* 
+│→ RSS: ${formatBytes(nodeUsage.rss)}
+│→ Heap Total: ${formatBytes(nodeUsage.heapTotal)}
+│→ Heap Usado: ${formatBytes(nodeUsage.heapUsed)}
+│→ Externa: ${formatBytes(nodeUsage.external)}
+│→ Arreglos: ${formatBytes(nodeUsage.arrayBuffers)}
 ${diskSpace ? `
+╰•❖━━━━━-ˋˏ༻༺ˎˊ-━━━━━❖•╯
 
-☁️ *Espacio en Disco:*
-→ Tamaño Total: ${diskSpace.size}
-→ Usado: ${diskSpace.used}
-→ Disponible: ${diskSpace.available}
-→ Porcentaje de Uso: ${diskSpace.usePercent}` : 'Error.'}
-`;
+╭•❖━━━━━-ˋˏ༻༺ˎˊ-━━━━━❖•╮
+│☁️ *Espacio en Disco:*
+│→ Tamaño Total: ${diskSpace.size}
+│→ Usado: ${diskSpace.used}
+│→ Disponible: ${diskSpace.available}
+│→ Porcentaje de Uso: ${diskSpace.usePercent}` : 'Error.'}
+╰•❖━━━━━-ˋˏ༻༺ˎˊ-━━━━━❖•╯`;
 
     await conn.reply(m.chat, message.trim(), m, );
 };

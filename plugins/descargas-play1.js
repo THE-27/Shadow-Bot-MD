@@ -18,7 +18,17 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     const { title, thumbnail, timestamp, views, ago, url, author } = videoInfo
     const vistas = formatViews(views)
     const canal = author.name || 'Desconocido'
-    const infoMessage = `「✦」Descargando *<${title}>*\n\n> ✦ Canal » *${videoInfo.author.name || 'Desconocido'}*\n> ✰ Vistas » *${views}*\n> ⴵ Duración » *${timestamp}*\n> ✐ Publicación » *${ago}*\n> 🜸 Link » ${url}`
+    const infoMessage = `
+ ׅ ֺ ֵ  ᡣᰍ ׄ 🍨̸ ׅ ˒˓ ֹ *ᥡ𝗍-ძᥱsᥴᥲrgᥲs* —장ׅ  ֹ
+          ┈─‌─‌─┈ 𓈒 ׄ 𔕬  ֵ  ┈─‌─‌─┈
+「✦」Descargando *<${title}>*
+
+> ✦ Canal » *${videoInfo.author.name || 'Desconocido'}*
+> ✰ Vistas » *${views}*
+> ⴵ Duración » *${timestamp}*
+> ✐ Publicación » *${ago}*
+> 🜸 Link » ${url}
+*⪩─ׅ─ׅ─๋︩︪─𖥸⊰‿⃝𝆬✿⃮⃝𝆬‿۪۪⊱𖥸─ׅ─ׅ─๋︩︪─⪨*`
 
     const thumb = (await conn.getFile(thumbnail)).data
 

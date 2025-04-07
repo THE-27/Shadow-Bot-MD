@@ -2,8 +2,8 @@ let handler = async (m, { usedPrefix, command }) => {
 let uptime = await process.uptime()
 let runtime = `${packname}
 
-✰ Tiempo activo: ${rTime(uptime)}`
-conn.reply(m.chat, runtime, m)
+✰ 𝗍іᥱm⍴᥆ ᥲᥴ𝗍і᥎᥆: ${rTime(uptime)}`
+conn.reply(m.chat, runtime, m, rcanal)
 }
 handler.help = ['runtime']
 handler.tags = ['main']

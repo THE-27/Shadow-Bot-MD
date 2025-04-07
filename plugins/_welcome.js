@@ -28,7 +28,7 @@ export async function before(m, { conn, participants, groupMetadata }) {
 *│•(=^●ω●^=)• Disfruta tu estadía en el grupo!*
 *│✐ Puedes usar _/menu_ para ver la*
 *│lista de comandos.*
-*╰┉┉┉┉┈┈┈┈┈┈┈┈┈┉┉┉᛫᛭*`    
+*╰┉┉┉┉┈┈┈┈┈┈┈┈┈┉┉┉᛫᛭*\n${dev}`    
     await conn.sendMini(m.chat, txt, dev, bienvenida, img, img, redes, fkontak)
   }
   
@@ -45,6 +45,6 @@ export async function before(m, { conn, participants, groupMetadata }) {
 *│•(=^●ω●^=)• Te esperamos pronto!*
 *│✐ Puedes usar _/menu_ para ver la*
 *│lista de comandos.*
-*╰┉┉┉┉┈┈┈┈┈┈┈┈┈┉┉┉᛫᛭*`
+*╰┉┉┉┉┈┈┈┈┈┈┈┈┈┉┉┉᛫᛭*\n${dev}`
     await conn.sendMini(m.chat, txt1, dev, bye, img, img, redes, fkontak)
   }}

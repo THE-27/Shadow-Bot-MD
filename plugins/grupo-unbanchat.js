@@ -21,7 +21,7 @@ let handler = async (m, { conn, usedPrefix, command, args }) => {
 
     if (args[0] === 'off') {
       if (chat.isBanned) {
-        return conn.reply(m.chat, `《✧》${botname} ya estaba desactivado.`, m);
+        return conn.reply(m.chat, `《✧》${botname} 𝐲𝐚 𝐞𝐬𝐭𝐚𝐛𝐚 𝐝𝐞𝐬𝐚𝐜𝐯𝐭𝐢𝐯𝐚𝐝𝐨.`, m);
       }
       chat.isBanned = true;
       return conn.reply(m.chat, `✐ 𝐇𝐚𝐬 *𝐝𝐞𝐬𝐚𝐜𝐭𝐢𝐯𝐚𝐝𝐨* 𝐚 ${botname}!`, m);

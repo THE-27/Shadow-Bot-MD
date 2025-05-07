@@ -48,7 +48,7 @@ ${description}
         contextInfo: {
             mentionedJid: [userId],
             externalAdReply: {
-                title: '✧ Perfil de Usuario ✧',
+                title: '✧ ★᭄ꦿ᭄ꦿ𝑝𝑒𝑟𝑓𝑖𝑙 𝑑𝑒 𝑢𝑠𝑢𝑎𝑟𝑖𝑜★᭄ꦿ᭄ꦿ✧',
                 body: dev,
                 thumbnailUrl: perfil,
                 mediaType: 1,

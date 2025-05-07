@@ -6,7 +6,7 @@ const youtubeRegexID = /(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/))([a-z
 const handler = async (m, { conn, text, usedPrefix, command }) => {
   try {
     if (!text.trim()) {
-      return conn.reply(m.chat, `❀ Por favor, ingresa el nombre de la música a descargar.`, m)
+      return conn.reply(m.chat, `${emojis} Por favor, ingresa el nombre de la música a descargar.`, m)
     }
   
 let videoIdToFind = text.match(youtubeRegexID) || null
@@ -33,7 +33,18 @@ author = author || 'no encontrado'
 
     const vistas = formatViews(views)
     const canal = author.name ? author.name : 'Desconocido'
-    const infoMessage = `「✦」Descargando *<${title || 'Desconocido'}>*\n\n> ✦ Canal » *${canal}*\n> ✰ Vistas » *${vistas || 'Desconocido'}*\n> ⴵ Duración » *${timestamp || 'Desconocido'}*\n> ✐ Publicado » *${ago || 'Desconocido'}*\n> 🜸 Link » ${url}`
+    const infoMessage = ` ׅ ֺ ֵ ᡣᰍׄ⚡̸ ׅ˒˓ֹ *⏤⃜͟͟͞͞ᥡ𝗍-ძ᥆ᥕᥒᥣ᥆ᥲძ⃯★꙰⃟⸙* —장ֹׅ
+          ┈─‌─‌─┈ 𓈒 ׄ 𔕬  ֵ  ┈─‌─‌─┈
+「✦」𝑫𝒆𝒔𝒄𝒂𝒓𝒈𝒂𝒏𝒅𝒐 *〘${title || 'Desconocido'}〙*
+
+> •┊⚘۪۬᷇✦ 𝒄𝒂𝒏𝒂𝒍 » *${canal}*
+> •┊⚘۪۬᷇✰ 𝒗𝒊𝒔𝒕𝒂𝒔 » *${vistas || 'Desconocido'}*
+> •┊⚘۪۬᷇ⴵ 𝒅𝒖𝒓𝒂𝒄𝒊𝒐𝒏 » *${timestamp || 'Desconocido'}*
+> •┊⚘۪۬᷇✐ 𝒑𝒖𝒃𝒍𝒊𝒄𝒂𝒄𝒊𝒐𝒏 » *${ago || 'Desconocido'}*
+> •┊⚘۪۬᷇🜸 𝒍𝒊𝒏𝒌 » ${url}
+
+*⪩─ׅ─ׅ─๋︩︪─𖥸⊰‿⃝𝆬✿⃮⃝𝆬‿۪۪⊱𖥸─ׅ─ׅ─๋︩︪─⪨*
+    `
 
     const thumb = (await conn.getFile(thumbnail))?.data
 

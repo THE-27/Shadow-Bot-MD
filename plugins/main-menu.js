@@ -12,16 +12,16 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     let _uptime = process.uptime() * 1000
     let uptime = clockString(_uptime)
     let totalreg = Object.keys(global.db.data.users).length
-    let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://pin.it/6FyGBp4dQ')
+    let perfil = await conn.profilePictureUrl(userId, 'image').catch(_ => 'https://files.catbox.moe/g6u1f5.jpg')
     let taguser = '@' + userId.split("@s.whatsapp.net")[0]
 
     let images = [
-      'https://pin.it/3izek4k9l',
-      'https://pin.it/5iS8bn0fp',
-      'https://pin.it/5U8hyutUW',
-      'https://pin.it/6DUG0HRE2',
-      'https://pin.it/52TcCHsn9',
-      'https://pin.it/2mJcg3qA3'
+      'https://files.catbox.moe/mfcqs7.jpg',
+      'https://files.catbox.moe/v6ksr6.jpg',
+      'https://files.catbox.moe/ljmjmj.jpg',
+      'https://files.catbox.moe/dzo7sc.jpg',
+      'https://files.catbox.moe/u65da1.jpg',
+      'https://files.catbox.moe/t7bwy4.jpg'
     ]
     let randomImage = images[Math.floor(Math.random() * images.length)]  
 
@@ -226,6 +226,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
 ∫🍂✎ .twitter <url>
 ∫🍂✎ .xvideosdl
 ∫🍂✎ .xnxxdl
+∫🍂✎ ..pindl
 ꒷꒦ 🍃︶︶︶︶︶︶︶︶︶︶ ⚡꒦꒷
 
 *╭ׅׄ̇─ׅ̻ׄ╮۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹۪̇߭︹ׅ̟ׄ̇︹ׅ۪ׄ̇߭︹ׅ̟ׄ̇⊹*

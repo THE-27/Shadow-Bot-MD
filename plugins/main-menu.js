@@ -29,7 +29,7 @@ let handler = async (m, { conn, usedPrefix, __dirname }) => {
     let dev = 'Powered •By ꧁⟣٭𝙽𝙻𝙰٭⟢꧂'
     let redes = 'https://whatsapp.com/channel/0029VawF8fBBvvsktcInIz3m'
         let totalCommands = Object.values(global.plugins).filter((v) => v.help && v.tags).length;
-    let emojis = '🚀'
+    let emojis = '🍁'
     let error = '❌'
 
     let menu = `⬫   ‌ ۬︵࣪᷼⏜݊᷼✿⃘𐇽۫ꥈ࣪࣪࣪࣪࣪࣪࣪࣪࣪۬۬۬𖣘࣪ꥈ࣪ꥈ࣪ꥈ࣪࣪࣪࣪࣪࣪࣪࣪࣪🫐𐇽ٜ࣪࣪࣪࣪࣪࣪࣪࣪۬۬𖣘𝇈⃘۫ꥈ࣪࣪࣪࣪࣪࣪࣪࣪࣪۬۬۬࣪࣪࣪۬۬۬✿݊᷼⏜᷼

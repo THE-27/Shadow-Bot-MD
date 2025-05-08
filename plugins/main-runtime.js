@@ -2,9 +2,9 @@ let handler = async (m, { usedPrefix, command }) => {
 let uptime = await process.uptime()
 let runtime = `${packname}
 
-╭⊱⇱⊶⊷⊶⊷⊶⊷⊶⊷⊰⌍
-┃✰ \`𝗍іᥱm⍴᥆ ᥲᥴ𝗍і᥎᥆:\` ${rTime(uptime)} 
-╰⊱⊶⊷⊶⊷⊶⊷⊶⊷⇲⊰⌏`
+╭┅•×፝֟͜×  ┅𔒋 🍁 ♛ 🍁 𔒋┅  ×፝֟͜× •┅╮
+┃ *⡴ִ֢፝֟🍁𝗍іᥱm⍴᥆ ᥲᥴ𝗍і᥎᥆:* ${rTime(uptime)} 
+╰┄᷏•×፝֟͜×  ┅𔒋 🍁 ♛ 🍁 𔒋┅  ×፝֟͜× •┄᷏╯`
 conn.reply(m.chat, runtime, m, rcanal)
 }
 handler.help = ['runtime']

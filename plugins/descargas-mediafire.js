@@ -14,6 +14,5 @@ handler.tags = ['descargas']
 handler.command = ['mf', 'mediafire']
 handler.coin = 10
 handler.register = true
-handler.group = true
 
 export default handler

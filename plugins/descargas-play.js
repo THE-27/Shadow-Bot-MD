@@ -102,7 +102,6 @@ author = author || 'no encontrado'
 
 handler.command = handler.help = ['play', 'yta', 'ytmp3', 'play2', 'ytv', 'ytmp4', 'mp4', 'playaudio']
 handler.tags = ['descargas']
-handler.group = true
 
 export default handler
 

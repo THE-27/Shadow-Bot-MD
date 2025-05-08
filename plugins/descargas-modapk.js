@@ -23,7 +23,6 @@ return conn.reply(m.chat, `${msm} Ocurrió un fallo...`, m)}}
 handler.tags = ['descargas']
 handler.help = ['apkmod']
 handler.command = ['apk', 'modapk', 'aptoide']
-handler.group = true;
 handler.register = true;
 handler.coin = 5;
 
